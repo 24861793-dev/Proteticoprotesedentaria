@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mariane da Cruz Oliveira - Dentista e Técnico em Prótese Dentária</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Mariane da Cruz Oliveira</h1>
+                <p>Técnico em Prótese Dentária</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about-section">
+        <h2>Sobre a Profissional</h2>
+        <p>Olá, meu nome é Mariane da Cruz Oliveira e sou dentista especializada em Prótese Dentária. Tenho vasta experiência na criação e adaptação de próteses dentárias para melhorar a qualidade de vida dos meus pacientes.</p>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Serviços Oferecidos</h2>
+        <ul>
+            <li>Confecção de próteses totais</li>
+            <li>Reparo e ajustes de próteses dentárias</li>
+            <li>Consultoria para implantes dentários</li>
+            <li>Estudo personalizado para próteses dentárias</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contato</h2>
+        <p>Entre em contato para agendar uma consulta ou tirar suas dúvidas!</p>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <textarea name="message" placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mariane da Cruz Oliveira - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<section id="contact" class="contact-section">
+    <h2>Contato</h2>
+    <p>Entre em contato para agendar uma consulta ou tirar suas dúvidas!</p>
+    
+    <!-- Formulário de contato -->
+    <form action="submit_form.php" method="POST">
+        <input type="text" name="name" placeholder="Nome" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <textarea name="message" placeholder="Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Link para WhatsApp -->
+    <div class="whatsapp-contact">
+        <p>Ou entre em contato pelo WhatsApp:</p>
+        <a href="https://wa.me/5511953369407" target="_blank" class="whatsapp-button">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" class="whatsapp-icon">
+            Fale comigo no WhatsApp
+        </a>
+    </div>
+</section>
+
